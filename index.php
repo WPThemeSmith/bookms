@@ -4,10 +4,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Book List</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<?php include 'includes/head.php'; ?>
 </head>
 <body class="container py-4">
+
+<?php include 'includes/header.php'; ?>
+
   <h1 class="mb-4">Book List</h1>
   <a href="add.php" class="btn btn-primary mb-3">Add New Book</a>
   <table class="table table-bordered table-striped">

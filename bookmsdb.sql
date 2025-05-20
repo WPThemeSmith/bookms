@@ -5,7 +5,7 @@ CREATE TABLE books (
   isbn varchar(255) NOT NULL,
   price decimal(10,2) NOT NULL,
   publisher varchar(255) NOT NULL,
-  
+  published_date date NOT NULL,
   description text NOT NULL,
   cover_image varchar(255) NOT NULL,
   PRIMARY KEY (id)
